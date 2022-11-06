@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67370053-367e-4ea4-b59f-5c83e82c7792" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo-client/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo-client/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo-client/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo-client/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/init/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/init/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/init/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/init/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,15 +55,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/JavaEE",
+    "last_opened_file_path": "C:/Users/46519/Desktop/spring/codes/spring_day1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "972e73b7a882d0802a4e3a16946a2f94"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestSpring">
+  <component name="RunManager" selected="Application.di.TestSpring">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="init.TestSpring" />
       <module name="Basic" />
@@ -91,8 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="di.TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="di.TestSpring" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.di.TestSpring" />
         <item itemvalue="Application.TestSpring" />
         <item itemvalue="Application.TestUserDAO" />
       </list>
@@ -107,6 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667489138115</updated>
       <workItem from="1667489140167" duration="2507000" />
+      <workItem from="1667747018152" duration="5871000" />
     </task>
     <servers />
   </component>

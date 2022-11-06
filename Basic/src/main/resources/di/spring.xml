@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="di.DeptDAOImpl" id="aaa"></bean>
+
+    <!--    管理Service组件-->
+    <bean class="di.DeptServiceImpl" id="deptService">
+        <!-- 依赖注入
+            property:用来给组件中的属性进行赋值操作
+            name:用来指定给组件中的那个属性名进行赋值
+            ref:用来指定赋值对象在工厂中的唯一标识 bean的id
+        -->
+        <property name="deptDAO" ref="aaa"></property>
+    </bean>
+</beans>

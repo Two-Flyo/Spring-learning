@@ -11,6 +11,9 @@ public class TestSpring {
         UserDAO userDAO = (UserDAO) context.getBean("userDAO");
         System.out.printf(userDAO.toString());
         userDAO.save("lrf");
+
+        CityDAO cityDAO = (CityDAO) context.getBean("cityDAO");
+        cityDAO.delete("1");
     }
 
 }
