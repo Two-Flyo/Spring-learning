@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <!--    管理DAO组件-->
+        <!--
+        1.SET方式注入,注入时使用property
+        2.构造方法注入,注入时使用constructor-arg标签
+                -->
+        <bean class="cdi.EmpDAOImpl" id="empDAO">
+                <!--  使用构造注入              -->
+                <constructor-arg index="0" name="name" value="lrf"></constructor-arg>
+                <constructor-arg index="1" name="age" value="20"></constructor-arg>
+                <constructor-arg index="2" name="birth" value="2002/03/30"></constructor-arg>
+        </bean>
+</beans>

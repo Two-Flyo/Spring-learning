@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67370053-367e-4ea4-b59f-5c83e82c7792" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../mongo-client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mongo-client/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mongo-client/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mongo-client/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/init/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/init/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/init/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/init/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/di/DeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/DeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/di/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/di/spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -49,22 +45,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/46519/Desktop/spring/codes/spring_day1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "972e73b7a882d0802a4e3a16946a2f94"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/46519/Desktop/spring/codes/spring_day1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;972e73b7a882d0802a4e3a16946a2f94&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.di.TestSpring">
+}</component>
+  <component name="RunManager" selected="Application.adii.TestSpring">
     <configuration name="TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="init.TestSpring" />
       <module name="Basic" />
@@ -91,6 +87,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="adii.TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adii.TestSpring" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adii.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cdi.TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cdi.TestSpring" />
+      <module name="Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cdi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="di.TestSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="di.TestSpring" />
       <module name="Basic" />
@@ -106,6 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.adii.TestSpring" />
+        <item itemvalue="Application.cdi.TestSpring" />
         <item itemvalue="Application.di.TestSpring" />
         <item itemvalue="Application.TestSpring" />
         <item itemvalue="Application.TestUserDAO" />
@@ -122,6 +146,7 @@
       <updated>1667489138115</updated>
       <workItem from="1667489140167" duration="2507000" />
       <workItem from="1667747018152" duration="5871000" />
+      <workItem from="1667833537806" duration="8427000" />
     </task>
     <servers />
   </component>

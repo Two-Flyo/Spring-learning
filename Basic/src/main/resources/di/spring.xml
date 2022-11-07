@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean class="di.DeptDAOImpl" id="aaa"></bean>
-
+    <bean class="init.UserDAOImpl" id="userDAO"></bean>
     <!--    管理Service组件-->
     <bean class="di.DeptServiceImpl" id="deptService">
         <!-- 依赖注入
@@ -12,5 +12,60 @@
             ref:用来指定赋值对象在工厂中的唯一标识 bean的id
         -->
         <property name="deptDAO" ref="aaa"></property>
+
+        <!-- SET注入相关语法  -->
+        <property name="name" value="小刘"></property>
+        <property name="age" value="200000"></property>
+        <property name="sex" value="true"></property>
+        <!--在Spring技术栈中日期格式默认为yyyy/mm/dd hh:mm:ss-->
+        <property name="birth" value="2002/03/30 23:54:19"></property>
+        <!--注入数组类型        -->
+        <property name="qqs">
+            <array>
+                <value>"lll"</value>
+                <value>"rrr"</value>
+                <value>"fff"</value>
+            </array>
+        </property>
+
+        <property name="userDAOS">
+            <array>
+                <ref bean="userDAO"></ref>
+                <ref bean="userDAO"></ref>
+                <ref bean="userDAO"></ref>
+            </array>
+        </property>
+
+        <property name="habby">
+            <list>
+                <value>eating</value>
+                <value>running</value>
+            </list>
+        </property>
+
+        <property name="deptDAOList">
+            <list>
+                <ref bean="aaa"></ref>
+                <ref bean="aaa"></ref>
+                <ref bean="aaa"></ref>
+                <ref bean="aaa"></ref>
+            </list>
+        </property>
+
+        <property name="maps">
+            <map>
+                <entry key="lrf" value="LiuRuiFei"></entry>
+                <entry key="2f" value="Two_Fly"></entry>
+            </map>
+        </property>
+        <!--注入poperties-->
+        <property name="properties">
+            <props>
+                <prop key="driver">com.mysql.jdbc.Driver</prop>
+                <prop key="url">jdbc:mysql://localhost:3306/test</prop>
+                <prop key="user">root</prop>
+                <prop key="password">123456</prop>
+            </props>
+        </property>
     </bean>
 </beans>
