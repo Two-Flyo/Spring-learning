@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67370053-367e-4ea4-b59f-5c83e82c7792" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adii/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adi/StudentDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adii/StudentDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adi/StudentDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adii/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adi/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adii/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adi/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adii/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adi/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/adi/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/adi/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adi/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adi/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adii/StudentDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adii/StudentDAOImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adii/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adii/StudentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adii/TestSpring.class" beforeDir="false" />
-    </list>
+    <list default="true" id="67370053-367e-4ea4-b59f-5c83e82c7792" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +143,7 @@
       <workItem from="1667489140167" duration="2507000" />
       <workItem from="1667747018152" duration="5871000" />
       <workItem from="1667833537806" duration="8427000" />
-      <workItem from="1667919646333" duration="3749000" />
+      <workItem from="1667919646333" duration="4399000" />
     </task>
     <servers />
   </component>
