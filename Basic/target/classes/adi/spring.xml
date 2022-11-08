@@ -4,7 +4,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
         <!--管理DAO组件    -->
-        <bean class="adii.StudentDAOImpl" id="studentDAO"></bean>
-        <!--管理Service组件    -->
-        <bean class="adii.StudentServiceImpl" id="studentService"></bean>
+        <bean class="adi.StudentDAOImpl" id="studentDAO"></bean>
+
+        <bean class="adi.StudentDAONewImpl" id="studentDAONew"></bean>
+        <!--管理Service组件
+            autoire:用来给组件中成员完成自动注入
+                byType:根据类型完成自动注入 根据成员变量的类型去工厂中找 找到对应类型完成赋值
+                byName:根据名称完成自动注入 根据成员变量的名字去工厂中找与之名字,找到对应并赋值
+        -->
+        <bean class="adi.StudentServiceImpl" id="studentService" autowire="byName"></bean>
 </beans>

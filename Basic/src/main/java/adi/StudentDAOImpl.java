@@ -1,4 +1,4 @@
-package adii;
+package adi;
 
 public class StudentDAOImpl implements StudentDAO{
     @Override
