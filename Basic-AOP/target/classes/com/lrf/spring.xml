@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--管理DAO组件-->
+    <bean class="com.lrf.dao.DeptDAOImpl" id="deptDAO"></bean>
+    <!--管理Service组件-->
+    <bean class="com.lrf.service.DeptServiceImpl" id="deptService">
+        <property name="deptDAO" ref="deptDAO"></property>
+
+    </bean>
+    <!--注册通知类-->
+    <bean id="methodInvokeTimeAdvice" class="com.lrf.advices.MethodInvokeTimeAdvice"></bean>
+
+    <!-- 配置切面   -->
+    <aop:config>
+        <!--   配置切入点     -->
+        <aop:pointcut id="aaa" expression="execution(* com.lrf.service.*ServiceImpl.*(..))"/>
+        <!--   组装切面     -->
+        <aop:advisor advice-ref="methodInvokeTimeAdvice" pointcut-ref="aaa"></aop:advisor>
+    </aop:config>
+
+</beans>
